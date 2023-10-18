@@ -118,7 +118,7 @@ function App() {
             </h2>
             {answers[questionIndex].map((answer, index) => (
               <div key={index} className="flex flex-col gap-4">
-                <label className="text-[20px] mt-[7px] text-center">
+                <label className="text-[20px] mt-[7px] max-[600px]:text-center">
                   <input
                     className="mr-[15px]"
                     onChange={handleRadioChange}
